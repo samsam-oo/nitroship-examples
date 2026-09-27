@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "template": {
+    "name": "Static example",
+    "description": "A plain HTML page with no build step."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "build": {
+    "command": "node build.mjs",
+    "outputDirectory": "dist"
+  },
+  "template": {
+    "name": "Build and env example",
+    "description": "Runs a build command that renders environment variables into the page.",
+    "env": [
+      { "key": "GREETING", "description": "Heading shown on the page", "required": true, "default": "Hello from Nitroship" },
+      { "key": "API_SECRET", "description": "Generated secret; the page only reports whether it is set", "generate": "secret" }
+    ]
+  }
+}
