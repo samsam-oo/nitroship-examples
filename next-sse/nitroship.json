@@ -1,0 +1,10 @@
+{
+  "compute": {
+    "regions": ["jp-tyo"],
+    "tier": "standard"
+  },
+  "template": {
+    "name": "Next.js SSE and streaming",
+    "description": "Live SSE, chunked text responses, and Suspense-streamed SSR on Compute."
+  }
+}
