@@ -4,11 +4,15 @@
     "outputDirectory": "dist"
   },
   "template": {
-    "name": "Build and env example",
-    "description": "Runs a build command that renders environment variables into the page.",
+    "name": "Build-time environment",
+    "description": "Builds a static page from typed environment values without exposing the generated secret.",
     "env": [
-      { "key": "GREETING", "description": "Heading shown on the page", "required": true, "default": "Hello from Nitroship" },
-      { "key": "API_SECRET", "description": "Generated secret; the page only reports whether it is set", "generate": "secret" }
+      { "key": "GREETING", "description": "Heading shown on the page", "type": "string", "required": true, "default": "Hello from Nitroship" },
+      { "key": "SITE_URL", "description": "Site URL shown on the page", "type": "url", "default": "https://example.com" },
+      { "key": "PAGE_SIZE", "description": "Page size shown on the page", "type": "number", "default": "20" },
+      { "key": "THEME", "description": "Theme shown on the page", "type": "enum", "options": ["light", "dark"], "default": "light" },
+      { "key": "SHOW_BANNER", "description": "Banner setting shown on the page", "type": "enum", "options": ["true", "false"], "default": "true" },
+      { "key": "API_SECRET", "description": "Generated secret; only its length appears on the page", "generated": true, "secret": true }
     ]
   }
 }

@@ -1,12 +1,17 @@
-// Renders dist/index.html from build-time environment variables.
-// API_SECRET is never written to the page; only whether it was provided.
+// Render only build-time values intended to be public; never output the secret itself.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const escape = (value) =>
   value.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-const greeting = process.env.GREETING ?? "(GREETING not set)";
-const secretStatus = process.env.API_SECRET ? `set (${process.env.API_SECRET.length} characters)` : "not set";
+const fields = [
+  ["GREETING", process.env.GREETING ?? "Hello from Nitroship"],
+  ["SITE_URL", process.env.SITE_URL ?? "https://example.com"],
+  ["PAGE_SIZE", process.env.PAGE_SIZE ?? "20"],
+  ["THEME", process.env.THEME ?? "light"],
+  ["SHOW_BANNER", process.env.SHOW_BANNER ?? "true"],
+];
+const secretLength = process.env.API_SECRET?.length ?? 0;
 const builtAt = new Date().toISOString();
 
 const html = `<!doctype html>
@@ -22,12 +27,12 @@ const html = `<!doctype html>
     </style>
   </head>
   <body>
-    <h1>${escape(greeting)}</h1>
+    <h1>${escape(fields[0][1])}</h1>
     <p>Built by <code>node build.mjs</code> in the Nitroship builder and served from <code>dist/</code>.</p>
     <dl>
-      <dt>GREETING</dt><dd><code>${escape(greeting)}</code></dd>
-      <dt>API_SECRET</dt><dd>${secretStatus}</dd>
-      <dt>Built at</dt><dd>${builtAt}</dd>
+      ${fields.map(([key, value]) => `<dt>${escape(key)}</dt><dd><code>${escape(value)}</code></dd>`).join("\n      ")}
+      <dt>API_SECRET length</dt><dd><code>${secretLength}</code> characters</dd>
+      <dt>Built at</dt><dd>${escape(builtAt)}</dd>
     </dl>
   </body>
 </html>
@@ -35,4 +40,4 @@ const html = `<!doctype html>
 
 mkdirSync("dist", { recursive: true });
 writeFileSync("dist/index.html", html);
-console.log(`wrote dist/index.html (GREETING=${JSON.stringify(greeting)}, API_SECRET ${secretStatus})`);
+console.log("wrote dist/index.html");
