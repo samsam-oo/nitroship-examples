@@ -1,0 +1,21 @@
+{
+  "compute": {
+    "regions": ["jp-tyo"],
+    "tier": "standard",
+    "port": 8080,
+    "healthPath": "/healthz"
+  },
+  "template": {
+    "name": "Docker Realtime",
+    "description": "Framework-free Compute WebSocket and SSE server with a custom port and health check.",
+    "env": [
+      {
+        "key": "GREETING",
+        "description": "Optional greeting displayed on the tester page.",
+        "type": "string",
+        "required": false,
+        "default": "Hello from Nitroship"
+      }
+    ]
+  }
+}
