@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "template": {
-    "name": "Static example",
-    "description": "A plain HTML page with no build step."
+    "name": "Static clean URLs",
+    "description": "Plain HTML pages with /about served from about.html; no build step."
   }
 }
