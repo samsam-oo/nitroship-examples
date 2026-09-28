@@ -1,0 +1,10 @@
+{
+  "compute": {
+    "regions": ["jp-tyo"],
+    "tier": "standard"
+  },
+  "template": {
+    "name": "Next.js WebSocket chat",
+    "description": "Instance-local chat with presence, ping latency, and automatic reconnection."
+  }
+}
