@@ -1,0 +1,12 @@
+{
+  "images": {
+    "protocol": "ipx",
+    "remotePatterns": [
+      { "protocol": "https", "hostname": "upload.wikimedia.org", "pathname": "/wikipedia/commons/**" }
+    ]
+  },
+  "template": {
+    "name": "Static images example",
+    "description": "A static PNG served directly and resized or converted by Nitroship's Edge IPX image optimizer."
+  }
+}
