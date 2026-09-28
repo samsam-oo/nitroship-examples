@@ -1,0 +1,31 @@
+{
+  "compute": {
+    "regions": ["jp-tyo"],
+    "tier": "standard"
+  },
+  "crons": [
+    { "path": "/api/cron", "schedule": "*/5 * * * *" }
+  ],
+  "template": {
+    "name": "Next.js ISR and cron",
+    "description": "App Router ISR, SSR, tagged revalidation, scheduled cron, proxy, and image optimization.",
+    "env": [
+      {
+        "key": "CRON_SECRET",
+        "description": "Bearer secret used to authenticate scheduled cron requests.",
+        "type": "string",
+        "generated": true,
+        "secret": true,
+        "required": true
+      },
+      {
+        "key": "REVALIDATE_SECRET",
+        "description": "Bearer secret for manual tag revalidation.",
+        "type": "string",
+        "generated": true,
+        "secret": true,
+        "required": true
+      }
+    ]
+  }
+}
