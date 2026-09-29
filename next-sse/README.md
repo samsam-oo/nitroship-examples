@@ -21,7 +21,7 @@ From the examples repository root:
 ntro deploy next-sse --app my-next-sse
 ```
 
-Or use [Deploy on Nitroship](https://nitroship.co/deploy?repo=samsam-oo/nitroship-examples&dir=next-sse). The config targets `jp-tyo` Compute at the `standard` tier.
+Or use [Deploy on Nitroship](https://nitroship.co/deploy?repo=samsam-oo/nitroship-examples&dir=next-sse). The config uses the `standard` Compute tier, and you choose the region on the deploy page.
 
 ## Check streaming
 

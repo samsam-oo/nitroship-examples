@@ -1,6 +1,5 @@
 {
   "compute": {
-    "regions": ["jp-tyo"],
     "tier": "standard",
     "port": 8080,
     "healthPath": "/healthz"

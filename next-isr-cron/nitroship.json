@@ -1,6 +1,5 @@
 {
   "compute": {
-    "regions": ["jp-tyo"],
     "tier": "standard"
   },
   "crons": [

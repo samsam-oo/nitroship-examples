@@ -24,7 +24,7 @@ ntro apps create next-websocket
 ntro deploy next-websocket --app next-websocket
 ```
 
-Or use the [Deploy on Nitroship button](https://nitroship.co/deploy?repo=samsam-oo/nitroship-examples&dir=next-websocket). The configuration deploys to `jp-tyo` at the `standard` Compute tier. Visit the deployed URL to inspect connection state, instance-local client count, ping latency, and chat messages. In Node 22+, run this against the deployment (replace the URL if you use a custom domain):
+Or use the [Deploy on Nitroship button](https://nitroship.co/deploy?repo=samsam-oo/nitroship-examples&dir=next-websocket). The config uses the `standard` Compute tier, and you choose the region on the deploy page. Visit the deployed URL to inspect connection state, instance-local client count, ping latency, and chat messages. In Node 22+, run this against the deployment (replace the URL if you use a custom domain):
 
 ```sh
 WS_URL=wss://next-websocket.ntro.run/api/ws node --input-type=module -e '

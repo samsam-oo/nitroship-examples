@@ -48,13 +48,13 @@ README explains what it exercises and how to test it against the deployed URL.
   `build.outputDirectory` replaces the `dist`/`build`/`out` search. A root `Dockerfile` takes
   precedence over `build`.
 
-Next.js and Dockerfile apps run on Compute and need target regions:
+Next.js and Dockerfile apps run on Compute. If `compute.regions` is omitted, the deploy page asks
+you to pick regions; you can also set them later in App Settings > Compute. Pin regions in
+`nitroship.json` only to force a region (the file wins per field). Other optional Compute settings:
 
 ```json
-{ "compute": { "regions": ["jp-tyo"], "tier": "standard", "port": 8080, "healthPath": "/healthz" } }
+{ "compute": { "tier": "standard", "port": 8080, "healthPath": "/healthz" } }
 ```
-
-`port` and `healthPath` are optional; see [`docker-realtime`](docker-realtime).
 
 ## Deploy with the CLI instead
 
