@@ -22,6 +22,6 @@ ntro apps create my-build-env
 ntro deploy build-env --app my-build-env
 ```
 
-Or use the [Deploy on Nitroship form](https://nitroship.co/new/deploy?repo=samsam-oo/nitroship-examples&dir=build-env) to enter the variables and generate a secret. Visit the deployed URL, confirm all five public values and the secret length are displayed, and confirm the secret value is not visible in page source.
+Or use the [Deploy on Nitroship form](https://nitroship.co/deploy?repo=samsam-oo/nitroship-examples&dir=build-env) to enter the variables and generate a secret. Visit the deployed URL, confirm all five public values and the secret length are displayed, and confirm the secret value is not visible in page source.
 
 Environment values are baked into static HTML at build time, not read per request. Changing them requires another build/deployment. Do not put private values in the five displayed fields; even the generated secret's length is public.
