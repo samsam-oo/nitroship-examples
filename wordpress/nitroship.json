@@ -1,0 +1,21 @@
+{
+  "template": {
+    "name": "WordPress",
+    "description": "Stock WordPress 7.1.2 on managed PHP with an external MySQL database, server-rendered theme, REST API, and CDN assets. Install the site over HTTP after deployment; configure object-storage offload before uploading media.",
+    "env": [
+      { "key": "DB_HOST", "required": true, "description": "External MySQL/MariaDB host, optionally host:port; reachable from Compute." },
+      { "key": "DB_NAME", "required": true, "description": "Existing empty database for the first HTTP installation." },
+      { "key": "DB_USER", "required": true, "description": "Database user with privileges to create and update WordPress tables." },
+      { "key": "DB_PASSWORD", "required": true, "secret": true, "description": "External database password." },
+      { "key": "WP_HOME", "type": "url", "required": true, "description": "Public site origin, e.g. https://wordpress.example.com; WP_SITEURL uses the same value." },
+      { "key": "AUTH_KEY", "required": true, "generated": true, "secret": true, "description": "Stable WordPress authentication key." },
+      { "key": "SECURE_AUTH_KEY", "required": true, "generated": true, "secret": true, "description": "Stable WordPress secure authentication key." },
+      { "key": "LOGGED_IN_KEY", "required": true, "generated": true, "secret": true, "description": "Stable WordPress logged-in key." },
+      { "key": "NONCE_KEY", "required": true, "generated": true, "secret": true, "description": "Stable WordPress nonce key." },
+      { "key": "AUTH_SALT", "required": true, "generated": true, "secret": true, "description": "Stable WordPress authentication salt." },
+      { "key": "SECURE_AUTH_SALT", "required": true, "generated": true, "secret": true, "description": "Stable WordPress secure authentication salt." },
+      { "key": "LOGGED_IN_SALT", "required": true, "generated": true, "secret": true, "description": "Stable WordPress logged-in salt." },
+      { "key": "NONCE_SALT", "required": true, "generated": true, "secret": true, "description": "Stable WordPress nonce salt." }
+    ]
+  }
+}

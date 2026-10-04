@@ -1,0 +1,15 @@
+/*
+Theme Name: Nitroship
+Description: A tiny classic theme demonstrating server-rendered PHP and CDN assets.
+Version: 1.0.0
+Requires at least: 7.1
+Requires PHP: 8.3
+License: GNU General Public License v2 or later
+Text Domain: nitroship
+*/
+:root { font-family: system-ui, sans-serif; color: #182234; background: #f5f7fb; }
+body { margin: 0; }
+main { max-width: 48rem; margin: 4rem auto; padding: 2rem; background: white; border-radius: 1rem; }
+a { color: #2758bf; }
+li { margin-block: 0.75rem; }
+time { font-family: monospace; }
