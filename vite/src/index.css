@@ -1,0 +1,27 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #15243b;
+  background: #f4f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 48rem;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+a {
+  color: #2455b8;
+}
+
+#route-marker {
+  padding: 1rem;
+  border: 2px solid #2455b8;
+  font-weight: 600;
+}

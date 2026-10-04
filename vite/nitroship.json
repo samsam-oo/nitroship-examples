@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Vite React SPA",
+    "description": "A client-side React app with nested URLs and static assets on the CDN."
+  }
+}
