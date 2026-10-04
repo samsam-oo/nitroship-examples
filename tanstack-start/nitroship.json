@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "TanStack Start SSR",
+    "description": "TanStack Start with Nitro, a server-rendered timestamp, JSON route, and CDN assets."
+  }
+}
