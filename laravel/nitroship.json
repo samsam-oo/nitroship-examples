@@ -1,0 +1,20 @@
+{
+  "template": {
+    "name": "Laravel",
+    "description": "A Blade page and JSON API on Compute with public assets on the CDN.",
+    "env": [
+      {
+        "key": "APP_KEY",
+        "description": "Stable application key: run php artisan key:generate --show after composer install. Must be base64: followed by base64-encoded 32 random bytes.",
+        "required": true,
+        "secret": true
+      },
+      {
+        "key": "APP_URL",
+        "description": "The application's public HTTPS URL.",
+        "type": "url",
+        "required": true
+      }
+    ]
+  }
+}
