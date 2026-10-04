@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "React Router SSR",
+    "description": "React Router framework-mode SSR, a JSON server loader, and CDN assets."
+  }
+}
