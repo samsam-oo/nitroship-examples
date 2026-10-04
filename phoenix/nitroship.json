@@ -1,0 +1,19 @@
+{
+  "template": {
+    "name": "Phoenix",
+    "description": "A Phoenix release serving request-time HEEx and JSON on Compute with compiled assets on the CDN.",
+    "env": [
+      {
+        "key": "SECRET_KEY_BASE",
+        "description": "Stable endpoint signing/encryption secret, at least 64 characters. Generate with: mix phx.gen.secret",
+        "required": true,
+        "secret": true
+      },
+      {
+        "key": "PHX_HOST",
+        "description": "Public deployment/custom hostname without scheme or port.",
+        "required": true
+      }
+    ]
+  }
+}

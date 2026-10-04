@@ -1,0 +1,7 @@
+<main class="max-w-3xl mx-auto p-8">
+  <h1 class="text-3xl font-bold">Hello Phoenix from Nitroship</h1>
+  <p>This HEEx page is rendered on Compute for each request.</p>
+  <p>Server UTC time: <time datetime={@server_time}>{@server_time}</time></p>
+  <p><a href={~p"/api/hello"}>JSON greeting</a> · <a href={~p"/marker.txt"}>Static CDN marker</a></p>
+  <p>The stock Tailwind and esbuild pipeline builds public CSS and JavaScript for the CDN.</p>
+</main>
