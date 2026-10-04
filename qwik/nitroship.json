@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Qwik City SSR",
+    "description": "Qwik City Express adapter, server-rendered timestamps, JSON routes, and CDN assets."
+  }
+}

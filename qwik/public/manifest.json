@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Qwik on Nitroship",
+  "short_name": "Qwik SSR",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Request-time Qwik City SSR on Nitroship."
+}
