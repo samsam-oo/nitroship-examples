@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "VitePress static site",
+    "description": "VitePress pages and a public asset on the Nitroship CDN."
+  }
+}
