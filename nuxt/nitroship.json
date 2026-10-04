@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Nuxt SSR",
+    "description": "Nuxt with a server-rendered timestamp, a JSON API route, and public CDN assets."
+  }
+}
