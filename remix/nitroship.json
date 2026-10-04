@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Remix v2 Vite SSR",
+    "description": "Remix v2 server rendering, a JSON resource route, and public assets served from the CDN."
+  }
+}
