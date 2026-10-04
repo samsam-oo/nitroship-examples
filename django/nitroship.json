@@ -1,0 +1,22 @@
+{
+  "template": {
+    "name": "Django",
+    "description": "A Django-rendered page and JSON API on Compute with collected CDN static assets.",
+    "env": [
+      {
+        "key": "SECRET_KEY",
+        "description": "Generate with: python -c 'import secrets; print(secrets.token_urlsafe(50))'",
+        "type": "string",
+        "required": true,
+        "secret": true
+      },
+      {
+        "key": "ALLOWED_HOSTS",
+        "description": "Comma-separated deployment/custom hostnames without schemes or ports. This demo defaults to * for unknown deployment hostnames; restrict it after deploying.",
+        "type": "string",
+        "required": true,
+        "default": "*"
+      }
+    ]
+  }
+}

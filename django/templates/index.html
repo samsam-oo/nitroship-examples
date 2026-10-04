@@ -1,0 +1,5 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Django on Nitroship</title><link rel="stylesheet" href="{% static 'example.css' %}"></head>
+<body><main><h1>Django on Nitroship</h1><p>This page was rendered on Compute at <time>{{ served_at }}</time>.</p><p>The stylesheet was collected at build time and is served from the CDN.</p><a href="/api/hello">Read the JSON response</a></main></body>
+</html>
