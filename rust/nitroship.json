@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Rust example",
+    "description": "Cargo HTTP server with request-time HTML, JSON and a public CDN asset."
+  }
+}
