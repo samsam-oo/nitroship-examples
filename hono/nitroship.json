@@ -1,0 +1,3 @@
+{
+  "template": { "name": "Hono", "description": "A Hono Node server with request-time HTML, JSON and a public asset on Compute." }
+}
