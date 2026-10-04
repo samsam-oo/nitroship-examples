@@ -1,0 +1,22 @@
+{
+  "template": {
+    "name": "Symfony",
+    "description": "Symfony 7.4 and Twig server rendering, a JSON API, and a static CDN marker on managed PHP compute.",
+    "env": [
+      {
+        "key": "APP_SECRET",
+        "description": "Stable Symfony application secret, injected at runtime.",
+        "type": "string",
+        "generated": true,
+        "secret": true,
+        "required": true
+      },
+      {
+        "key": "DEFAULT_URI",
+        "description": "Your application's public HTTPS URL, used by the router outside HTTP requests.",
+        "type": "url",
+        "required": true
+      }
+    ]
+  }
+}

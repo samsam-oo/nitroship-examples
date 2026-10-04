@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nitroship Symfony{% endblock %}
+
+{% block body %}
+    <main>
+        <h1>Nitroship Symfony</h1>
+        <p>This page is rendered on the server by Symfony and Twig.</p>
+        <p>Request time (UTC): <time datetime="{{ request_time }}">{{ request_time }}</time></p>
+        <p><a href="{{ path('api_hello') }}">JSON API</a> · <a href="/marker.txt">Static CDN marker</a></p>
+    </main>
+{% endblock %}

@@ -1,0 +1,1 @@
+Nitroship Symfony static CDN marker

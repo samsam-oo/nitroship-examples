@@ -1,0 +1,6 @@
+/.env*
+/vendor/
+/var/
+/public/bundles/
+/config/secrets/prod/prod.decrypt.private.php
+/config/reference.php
