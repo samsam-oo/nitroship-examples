@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "MkDocs",
+    "description": "A minimal MkDocs site with an About page, navigation, and a static SVG."
+  }
+}
