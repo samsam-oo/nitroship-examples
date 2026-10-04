@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "NestJS",
+    "description": "A NestJS server-rendered page, JSON endpoint, and static asset on managed Compute."
+  }
+}
