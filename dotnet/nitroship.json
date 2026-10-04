@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": ".NET example",
+    "description": "ASP.NET Core request-time HTML, a JSON API, and CDN-served static assets."
+  }
+}

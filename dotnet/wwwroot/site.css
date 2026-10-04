@@ -1,0 +1,23 @@
+/* dotnet-example-asset */
+:root {
+  font-family: system-ui, sans-serif;
+  color: #172033;
+  background: #f4f6fb;
+}
+body {
+  margin: 0;
+  padding: 3rem 1.5rem;
+}
+main {
+  max-width: 42rem;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+}
+a {
+  color: #512bd4;
+}
+time {
+  overflow-wrap: anywhere;
+}
