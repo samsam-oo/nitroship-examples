@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Spring Boot example",
+    "description": "Spring Initializr Maven web app with request-time HTML, JSON and a packaged static asset."
+  }
+}
