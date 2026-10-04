@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "FastAPI",
+    "description": "A FastAPI-rendered page and JSON API on Compute with a CDN stylesheet."
+  }
+}
