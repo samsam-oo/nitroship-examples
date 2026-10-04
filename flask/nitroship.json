@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Flask",
+    "description": "A Flask-rendered page and JSON API on Compute with a CDN stylesheet."
+  }
+}
