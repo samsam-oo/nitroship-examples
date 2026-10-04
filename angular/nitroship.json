@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Angular SSR",
+    "description": "Angular server rendering, an Express JSON route, and CDN assets."
+  }
+}
