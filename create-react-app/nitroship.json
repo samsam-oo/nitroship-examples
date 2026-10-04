@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Create React App",
+    "description": "A legacy React SPA with an interactive counter and nested URLs on the CDN."
+  }
+}
