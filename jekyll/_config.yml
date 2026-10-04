@@ -1,0 +1,8 @@
+title: Jekyll on Nitroship
+url: ""
+baseurl: ""
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - nitroship.json
