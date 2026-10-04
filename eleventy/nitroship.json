@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Eleventy static site",
+    "description": "Eleventy pages and a public asset on the Nitroship CDN."
+  }
+}
