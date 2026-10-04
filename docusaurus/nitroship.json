@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Docusaurus static site",
+    "description": "Docusaurus pages and a public asset on the Nitroship CDN."
+  }
+}
