@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "PHP",
+    "description": "A PHP-rendered page and JSON API on Compute with a public CDN stylesheet."
+  }
+}

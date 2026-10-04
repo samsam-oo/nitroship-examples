@@ -1,0 +1,6 @@
+{
+  "name": "examples/php",
+  "description": "A dependency-free PHP HTTP example",
+  "type": "project",
+  "require": { "php": "^8.4" }
+}
