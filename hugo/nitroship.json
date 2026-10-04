@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Hugo",
+    "description": "A minimal Hugo site with inline layouts, an About page, and a static SVG."
+  }
+}
