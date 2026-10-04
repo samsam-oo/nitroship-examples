@@ -1,0 +1,15 @@
+{
+  "template": {
+    "name": "Rails",
+    "description": "Server-rendered Rails page, JSON API, and precompiled CSS on the CDN, without a database.",
+    "env": [
+      {
+        "key": "SECRET_KEY_BASE",
+        "description": "Stable signing/encryption secret (at least 64 characters). Generate with: ruby -rsecurerandom -e 'puts SecureRandom.hex(64)'",
+        "type": "string",
+        "required": true,
+        "secret": true
+      }
+    ]
+  }
+}

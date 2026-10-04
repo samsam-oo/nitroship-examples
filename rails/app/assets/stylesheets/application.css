@@ -1,0 +1,23 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+}
+
+.nitroship-rails {
+  max-width: 46rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  color: light-dark(#1858b8, #8fbaff);
+}
+
+time {
+  font-family: ui-monospace, monospace;
+}
