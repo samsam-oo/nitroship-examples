@@ -1,0 +1,16 @@
+body {
+  font-family: system-ui, sans-serif;
+  color: #172033;
+  background: #f8fafc;
+  margin: 0;
+}
+
+main {
+  max-width: 48rem;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 { color: #335d92; }
+a { color: #285fa6; }
+time { font-family: monospace; }

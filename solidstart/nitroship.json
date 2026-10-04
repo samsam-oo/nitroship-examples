@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "SolidStart SSR",
+    "description": "SolidStart with Nitro SSR, a server JSON route and CDN-served public assets."
+  }
+}
