@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Go example",
+    "description": "A standard-library Go HTTP server with request-time HTML, a JSON API, and a public CSS asset."
+  }
+}

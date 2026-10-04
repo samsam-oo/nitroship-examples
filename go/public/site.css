@@ -1,0 +1,24 @@
+/* go-example-asset */
+:root {
+  font-family: system-ui, sans-serif;
+  color: #153b46;
+  background: #eef8fa;
+}
+body {
+  margin: 0;
+  padding: 3rem 1rem;
+}
+main {
+  max-width: 42rem;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-top: 0.3rem solid #007d9c;
+  border-radius: 0.5rem;
+}
+a {
+  color: #007d9c;
+}
+time {
+  font-family: monospace;
+}
