@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Gatsby static site",
+    "description": "Gatsby pages and a public asset on the Nitroship CDN."
+  }
+}

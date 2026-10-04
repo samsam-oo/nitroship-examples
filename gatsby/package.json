@@ -1,0 +1,18 @@
+{
+  "name": "nitroship-gatsby",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "gatsby develop --host 127.0.0.1",
+    "build": "gatsby build",
+    "serve": "gatsby serve --host 127.0.0.1"
+  },
+  "dependencies": {
+    "gatsby": "5.16.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
