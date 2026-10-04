@@ -1,0 +1,3 @@
+{
+  "template": { "name": "Analog SSR", "description": "Angular server rendering and a JSON endpoint with Analog's standard Nitro output." }
+}
