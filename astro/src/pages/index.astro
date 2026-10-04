@@ -1,0 +1,21 @@
+---
+const renderedAt = new Date().toISOString();
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="/example.css" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro on Nitroship</title>
+	</head>
+	<body>
+		<main>
+			<h1>Astro on Nitroship</h1>
+			<p>This page is rendered by the standalone Node server for each request.</p>
+			<p>Server rendered at: <time datetime={renderedAt}>{renderedAt}</time></p>
+			<nav><a href="/api/info">JSON server route</a> · <a href="/about/">Prerendered page</a></nav>
+		</main>
+	</body>
+</html>

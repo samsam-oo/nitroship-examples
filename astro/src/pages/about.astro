@@ -1,0 +1,21 @@
+---
+export const prerender = true;
+const builtAt = new Date().toISOString();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/example.css" />
+    <title>Astro prerendered page</title>
+  </head>
+  <body>
+    <main>
+      <h1>Astro prerendered page</h1>
+      <p>This HTML is generated at build time and published to Nitroship's CDN.</p>
+      <p>Built at: <time datetime={builtAt}>{builtAt}</time></p>
+      <a href="/">Return to the server-rendered page</a>
+    </main>
+  </body>
+</html>

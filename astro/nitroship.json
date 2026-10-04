@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Astro standalone SSR",
+    "description": "Astro Node SSR, a JSON server route, and prerendered HTML with public assets on the CDN."
+  }
+}

@@ -1,0 +1,6 @@
+/* Nitroship Astro public asset */
+:root { font-family: system-ui, sans-serif; color: #152338; background: #f4f7fb; }
+body { margin: 0; }
+main { max-width: 48rem; margin: 4rem auto; padding: 2rem; background: white; border-radius: 1rem; }
+a { color: #6743b5; }
+time { font-family: monospace; }
