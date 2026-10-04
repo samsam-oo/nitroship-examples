@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "SvelteKit SSR",
+    "description": "SvelteKit adapter-node with a server-rendered timestamp, a JSON API route, and static CDN assets."
+  }
+}
