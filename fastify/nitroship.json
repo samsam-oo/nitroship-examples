@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Fastify",
+    "description": "Request-time HTML, a JSON API, and server-served static assets on Compute."
+  }
+}
