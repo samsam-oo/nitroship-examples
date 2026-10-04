@@ -1,0 +1,6 @@
+{
+  "template": {
+    "name": "Koa",
+    "description": "A Koa Node server with server-rendered HTML, a JSON API, and server-served static assets on Compute."
+  }
+}
